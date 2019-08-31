@@ -2,58 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="418a7fc8-b027-4085-8464-f01f061e3fb0" name="Default" comment="设置logger编码">
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/java/com/xuan/web/controller/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/java/com/xuan/web/controller/Home.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/css/bootstrap/blog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/css/bootstrap/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/css/bootstrap/ie10-viewport-bug-workaround.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/css/bootstrap/navbar-fixed-top.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/css/bootstrap/sticky-footer-navbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/css/bootstrap/sticky-footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/css/footer/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/i18n/system.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/i18n/system_en.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/i18n/system_zh.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/bootstrap/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/bootstrap/ie-emulation-modes-warning.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/bootstrap/ie10-viewport-bug-workaround.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/common/cookies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/common/jquery.i18n.properties.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/jsp/footer/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/jsp/footer/footer2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/jsp/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/jsp/top/top.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/classes/com/xuan/web/controller/BaseController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/classes/com/xuan/web/controller/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/classes/com/xuan/web/controller/Home.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/classes/com/xuan/web/controller/Home.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/css/bootstrap/blog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/css/bootstrap/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/css/bootstrap/ie10-viewport-bug-workaround.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/css/bootstrap/navbar-fixed-top.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/css/bootstrap/sticky-footer-navbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/css/bootstrap/sticky-footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/css/footer/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/i18n/system.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/i18n/system_en.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/i18n/system_zh.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/bootstrap/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/bootstrap/ie-emulation-modes-warning.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/bootstrap/ie10-viewport-bug-workaround.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/common/cookies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/common/jquery.i18n.properties.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/jsp/footer/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/jsp/footer/footer2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/jsp/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/jsp/top/top.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/target/classes/com/xuan/web/controller/BaseController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/target/classes/com/xuan/web/controller/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/target/classes/com/xuan/web/controller/Home.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/target/classes/com/xuan/web/controller/Home.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mercury-Mapper/target/Mercury-Mapper-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Mapper/target/Mercury-Mapper-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mercury-Mapper/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Mapper/target/maven-archiver/pom.properties" afterDir="false" />
@@ -61,22 +9,13 @@
       <change beforePath="$PROJECT_DIR$/Mercury-Pojo/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Pojo/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mercury-Server/target/Mercury-Server-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Server/target/Mercury-Server-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mercury-Server/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Server/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/src/main/java/com/xuan/web/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/src/main/java/com/xuan/web/controller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/src/main/resources/springMVC/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/src/main/resources/springMVC/springMVC.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/i18n/system_en.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/i18n/system_en.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/jsp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury.war" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/classes/com/xuan/web/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/classes/com/xuan/web/controller/IndexController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/classes/com/xuan/web/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/classes/com/xuan/web/controller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/classes/properties/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/classes/properties/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/classes/springMVC/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/classes/springMVC/springMVC.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/lib/Mercury-Mapper-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/lib/Mercury-Mapper-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/lib/Mercury-Pojo-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/lib/Mercury-Pojo-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/lib/Mercury-Server-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/lib/Mercury-Server-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/jsp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/classes/com/xuan/web/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/target/classes/com/xuan/web/controller/IndexController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/classes/com/xuan/web/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/target/classes/com/xuan/web/controller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/classes/properties/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/target/classes/properties/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/classes/springMVC/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/target/classes/springMVC/springMVC.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mercury-Web/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mercury-cms/target/Mercury-cms.war" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-cms/target/Mercury-cms.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mercury-cms/target/Mercury-cms/WEB-INF/lib/Mercury-Mapper-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-cms/target/Mercury-cms/WEB-INF/lib/Mercury-Mapper-1.0.0.jar" afterDir="false" />
@@ -99,20 +38,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="top.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="top.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/jsp/top/top.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9">
-              <caret line="41" column="89" selection-start-line="41" selection-start-column="89" selection-end-line="41" selection-end-column="89" />
+            <state relative-caret-position="1030">
+              <caret line="55" column="17" lean-forward="true" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="system_en.properties" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/jsp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4">
+              <caret line="21" column="60" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="system_en.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/i18n/system_en.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="9" selection-start-line="9" selection-end-line="9" selection-end-column="9" />
+            <state relative-caret-position="437">
+              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
             </state>
           </provider>
           <provider editor-type-id="ResourceBundle" />
@@ -156,11 +109,11 @@
         <option value="$PROJECT_DIR$/Mercury-Web/src/main/java/com/xuan/web/controller/Home.java" />
         <option value="$PROJECT_DIR$/Mercury-Web/src/main/resources/properties/log4j.properties" />
         <option value="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/css/index.css" />
-        <option value="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/jsp/index.jsp" />
         <option value="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/i18n/system_zh.properties" />
-        <option value="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/i18n/system_en.properties" />
         <option value="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/i18n/system.properties" />
         <option value="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/jsp/top/top.jsp" />
+        <option value="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/i18n/system_en.properties" />
       </list>
     </option>
   </component>
@@ -287,18 +240,6 @@
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="page" type="462c0819:PsiDirectoryNode" />
               <item name="jsp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mercury" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mercury" type="462c0819:PsiDirectoryNode" />
-              <item name="Mercury-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -477,7 +418,7 @@
       <workItem from="1567240791091" duration="10724000" />
       <workItem from="1567255303789" duration="5375000" />
       <workItem from="1567262552549" duration="216000" />
-      <workItem from="1567262902472" duration="10846000" />
+      <workItem from="1567262902472" duration="12471000" />
     </task>
     <task id="LOCAL-00001" summary="设置logger编码">
       <created>1567268942073</created>
@@ -490,10 +431,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27161000" />
+    <option name="totallyTimeSpent" value="28786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -516,8 +458,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.89752066" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.9950413" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3600605" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.9950413" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3600605" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -869,9 +811,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/jsp/login.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -905,17 +844,6 @@
     <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/css/bootstrap/jquery.bootstrap.year.calendar.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/i18n/system_zh.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -932,20 +860,30 @@
       </provider>
       <provider editor-type-id="ResourceBundle" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/jsp/top/top.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1030">
+          <caret line="55" column="17" lean-forward="true" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="21" column="60" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/i18n/system_en.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="9" selection-start-line="9" selection-end-line="9" selection-end-column="9" />
+        <state relative-caret-position="437">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
         </state>
       </provider>
       <provider editor-type-id="ResourceBundle" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/jsp/top/top.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="41" column="89" selection-start-line="41" selection-start-column="89" selection-end-line="41" selection-end-column="89" />
-        </state>
-      </provider>
     </entry>
   </component>
   <component name="masterDetails">

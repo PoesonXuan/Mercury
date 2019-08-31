@@ -19,7 +19,7 @@
         <div class="col-xs-2" >
             <br/><br/>
             <ul class="nav nav-tabs nav-stacked" data-spy="affix" data-offset-top="125">
-                <li class="active"><a href="#section-1">第一部分<<span class="glyphicon glyphicon-chevron-right">更多</span></a></li>
+                <li class="active"><a href="#section-1">第一部分</a></li>
                 <li><a href="#section-2">第二部分</a></li>
                 <li><a href="#section-3">第三部分</a></li>
                 <li><a href="#section-4">第四部分</a></li>
