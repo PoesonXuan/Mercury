@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Mercury-Mapper/MercuryMapper.iml" filepath="$PROJECT_DIR$/Mercury-Mapper/MercuryMapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mercury-Pojo/MercuryPojo.iml" filepath="$PROJECT_DIR$/Mercury-Pojo/MercuryPojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mercury-Server/MercuryServer.iml" filepath="$PROJECT_DIR$/Mercury-Server/MercuryServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mercury-Web/MercuryWeb.iml" filepath="$PROJECT_DIR$/Mercury-Web/MercuryWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mercury-cms/Mercurycms.iml" filepath="$PROJECT_DIR$/Mercury-cms/Mercurycms.iml" />
+    </modules>
+  </component>
+</project>
