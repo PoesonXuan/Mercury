@@ -1,4 +1,4 @@
-package com.xuan.batis.scan.mapper;
+package com.xuan.beans.batis.scan.mapper;
 
 import com.xuan.batis.scan.mapper.pojo.Customer;
 import com.xuan.batis.scan.mapper.pojo.CustomerExample;

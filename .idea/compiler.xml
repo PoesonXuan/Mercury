@@ -6,8 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Mercury" />
+        <module name="Mercury-cms" />
+        <module name="Mercury-Mapper" />
+        <module name="Mercury-Pojo" />
+        <module name="Mercury-Server" />
+        <module name="Mercury-Web" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Mercury" target="1.5" />
+      <module name="Mercury-cms" target="1.5" />
+      <module name="Mercury-Mapper" target="1.5" />
+      <module name="Mercury-Pojo" target="1.5" />
+      <module name="Mercury-Server" target="1.5" />
+      <module name="Mercury-Web" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

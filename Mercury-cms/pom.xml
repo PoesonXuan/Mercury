@@ -109,6 +109,11 @@
 
 
     <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+            </resource>
+        </resources>
         <!-- <finalName>${project.artifactId}</finalName> -->
         <plugins>
             <plugin>
@@ -124,11 +129,11 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>2.3.2</version>
-                <configuration>
+                <!--<configuration>
                     <encoding>utf-8</encoding>
                     <source>1.7</source>
                     <target>1.7</target>
-                </configuration>
+                </configuration>-->
             </plugin>
         </plugins>
         <finalName>Mercury-cms</finalName>

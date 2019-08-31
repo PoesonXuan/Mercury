@@ -1,9 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="Mercury:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/Mercury_jar</output-path>
-    <root id="archive" name="Mercury.jar">
-      <element id="module-output" name="Mercury" />
-      <element id="module-output" name="MercuryWeb" />
-    </root>
-  </artifact>
-</component>

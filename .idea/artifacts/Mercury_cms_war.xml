@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Mercury-cms:war">
+    <output-path>$PROJECT_DIR$/Mercury-cms/target</output-path>
+    <root id="archive" name="Mercury-cms.war">
+      <element id="artifact" artifact-name="Mercury-cms:war exploded" />
+    </root>
+  </artifact>
+</component>

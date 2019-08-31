@@ -1,4 +1,10 @@
-package PACKAGE_NAME;
+package com.xuan.beans.server.customer;
 
-public class ICustomerServer {
+import com.xuan.batis.scan.mapper.pojo.Customer;
+
+import java.util.List;
+
+public interface ICustomerServer {
+
+    List<Customer> getCustomers();
 }
