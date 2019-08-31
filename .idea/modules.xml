@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Mercury-Mapper/MercuryMapper.iml" filepath="$PROJECT_DIR$/Mercury-Mapper/MercuryMapper.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Mercury-Pojo/MercuryPojo.iml" filepath="$PROJECT_DIR$/Mercury-Pojo/MercuryPojo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Mercury-Server/MercuryServer.iml" filepath="$PROJECT_DIR$/Mercury-Server/MercuryServer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Mercury-Web/MercuryWeb.iml" filepath="$PROJECT_DIR$/Mercury-Web/MercuryWeb.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Mercury-cms/Mercurycms.iml" filepath="$PROJECT_DIR$/Mercury-cms/Mercurycms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mercury.iml" filepath="$PROJECT_DIR$/Mercury.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mercury-Mapper/Mercury-Mapper.iml" filepath="$PROJECT_DIR$/Mercury-Mapper/Mercury-Mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mercury-Pojo/Mercury-Pojo.iml" filepath="$PROJECT_DIR$/Mercury-Pojo/Mercury-Pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mercury-Server/Mercury-Server.iml" filepath="$PROJECT_DIR$/Mercury-Server/Mercury-Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mercury-Web/Mercury-Web.iml" filepath="$PROJECT_DIR$/Mercury-Web/Mercury-Web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mercury-cms/Mercury-cms.iml" filepath="$PROJECT_DIR$/Mercury-cms/Mercury-cms.iml" />
     </modules>
   </component>
 </project>
