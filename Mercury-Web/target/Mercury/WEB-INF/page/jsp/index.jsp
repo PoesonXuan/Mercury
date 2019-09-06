@@ -8,14 +8,48 @@
 <title>Insert title here</title>
     <link href="${pageContext.request.contextPath }/css/index.css"
           rel="stylesheet">
+    <link href="${pageContext.request.contextPath }/css/base.css"
+          rel="stylesheet">
 </head>
-<body>
+<body >
+<!--
+悬浮框
+-->
+<div style="width: 4em;height: 8em;background-color: #7dd4de;border-radius: 10em;position: fixed;right: 5em;bottom: 10em;">
+    <div style="width: 4em;height: 4em;border-bottom-color: #7dd4de;color: #7dd4de;">
+        <div class="panel panel-default">
+            <div class="panel-body" style="background-color: black;">
+                <center>
+                    <a class="articleA"  href="#" style="text-decoration: none;color: #519f4f;">置顶</a>
+                </center>
+
+            </div>
+        </div>
+    </div>
+    <div style="width: 4em;height: 4em;border-top-color: #7dd4de;color: #7dd4de; ">
+        <div class="panel panel-default">
+            <div class="panel-body" style="background-color: black;">
+                <center>
+                    <a class="articleA"  href="${pageContext.request.contextPath}/article/write" style="text-decoration: none;color: #519f4f;">发文</a>
+                </center>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!--
+悬浮框
+-->
+
 
 <jsp:include page="${pageContext.request.contextPath}/top"></jsp:include>
 <!-- this is  forward page !!! -->
 
 <div id="mainDiv" >
     <div id="mainContent">
+        <!--
+            左侧栏  start
+        -->
         <div class="col-xs-2" >
             <br/><br/>
             <ul class="nav nav-tabs nav-stacked" data-spy="affix" data-offset-top="125">
@@ -28,6 +62,12 @@
             <br/><br/>
 
         </div>
+        <!--
+                    左侧栏  end
+         -->
+        <!--
+            中部侧栏  start
+        -->
 
         <div class="col-xs-7" style="height: auto;" >
             <div class="panel panel-success">
@@ -36,7 +76,7 @@
                     <br>
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <span>A股疯狂套现40亿</span>
+                            <a class="articleA" href="${pageContext.request.contextPath }/article/detail" style="text-decoration: none;color: #4d4e60;">A股疯狂套现40亿</a>
                             <span class="badge badge-primary">原创</span>
                             <span class="badge badge-secondary">次要</span>
                             <span class="badge badge-success">推广</span>
@@ -49,7 +89,17 @@
                         <div class="panel-body">
                             太牛了！曾经的四川上市公司首富，在A股疯狂套现40亿后，公司财报净利润突然下降91.89％，2019上半年净利润更是由盈利变为亏损，直接下滑523％。美女总裁待在美国不回来，早已美国籍。公司高管集体离职，公司业务一切都不管，放着公司退市，连个写公告的人都没有了。其中被坑的股民多达3万多个。这就是中国A股。
                         </div>
-                        <div class="panel-footer">作者：大漠</div>
+                        <div class="panel-footer">
+                            <a class="articleA"  href="#" style="text-decoration: none;color: #4d4e60;">作者：大漠</a>
+                            <a class="articleA"  href="#" style="text-decoration: none;color: #4d4e60;">|</a>
+                            <a class="articleA"  href="#" style="text-decoration: none;color: #4d4e60;">2019-09-05 12:50:54</a>
+                            <a class="articleA"  href="#" style="text-decoration: none;color: #4d4e60;">|</a>
+                            <a class="articleA"  href="#" style="text-decoration: none;color: #4d4e60;">阅读(220)</a>
+                            <a class="articleA"  href="#" style="text-decoration: none;color: #4d4e60;">|</a>
+                            <a class="articleA"  href="#" style="text-decoration: none;color: #4d4e60;">喜欢(100)</a>
+                            <a class="articleA"  href="#" style="text-decoration: none;color: #4d4e60;">|</a>
+                            <a class="articleA"  href="#" style="text-decoration: none;color: #4d4e60;">评论(0)</a>
+                        </div>
                     </div>
                     <div class="panel panel-default">
                         <div class="panel-heading">
@@ -143,6 +193,13 @@
             </div>
 
         </div>
+
+        <!--
+            中部侧栏  end
+        -->
+        <!--
+            右侧栏  start
+        -->
         <div class="col-xs-3" style="height: auto;">
 
 
@@ -169,6 +226,9 @@
 
         </div>
 
+        <!--
+            右侧栏  stop
+        -->
     </div>
 
 </div>
@@ -180,11 +240,30 @@
 
 
 
-<script>window.jQuery || document.write('<script src="${pageContext.request.contextPath }/js/jquery.min.js"><\/script>')</script>
+<script type="text/javascript">
+    window.jQuery || document.write('<script src="${pageContext.request.contextPath }/js/jquery.min.js"/>');
+</script>
 
-<script type="application/javascript">
+<script type="text/javascript">
     $(function () {
+       setBackground();
+
     });
+
+    function setBackground(img_src){
+       /* alert('setBackground()');
+        if(img_src && img_src != ''){
+            alert('not null');
+        }else{
+
+            alert('  null');
+            img_src = '${pageContext.request.contextPath}/img/bodybg.jpg';
+            $("body").css("background-image","url("+img_src+") no-repeat");
+            $("body").css("background-size","100%");
+        }*/
+    }
+
+
 
 </script>
 

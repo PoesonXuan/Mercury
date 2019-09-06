@@ -7,26 +7,149 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="418a7fc8-b027-4085-8464-f01f061e3fb0" name="Default" comment="设置logger编码">
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/java/com/xuan/web/controller/ArticleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/java/com/xuan/web/controller/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/css/article/detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/css/article/write.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/css/img/bodybg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/css/img/city.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/css/img/moon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/adapter/autosave.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/adapter/editor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/adapter/editorui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/adapter/message.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/core/Editor.defaultoptions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/core/Editor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/core/EventBase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/core/Range.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/core/Selection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/core/ajax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/core/browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/core/domUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/core/dtd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/core/filternode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/core/filterword.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/core/htmlparser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/core/keymap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/core/loadconfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/core/localstorage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/core/node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/core/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/core/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/editor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/anchor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/autofloat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/autoheight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/autolink.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/autosave.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/autosubmit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/autotypeset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/autoupload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/background.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/basestyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/blockquote.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/catchremoteimage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/charts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/cleardoc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/contextmenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/convertcase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/copy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/customstyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/defaultfilter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/directionality.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/dragdrop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/elementpath.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/enterkey.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/fiximgclick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/font.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/formatmatch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/horizontal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/iframe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/indent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/insertcode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/insertfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/inserthtml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/insertparagraph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/justify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/keystrokes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/lineheight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/music.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/pagebreak.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/paragraph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/paste.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/preview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/print.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/puretxtpaste.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/removeformat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/rowspacing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/scrawl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/searchreplace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/section.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/selectall.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/serverparam.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/shortcutmenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/simpleupload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/snapscreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/source.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/table.action.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/table.cmds.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/table.core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/table.sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/undo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/webapp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/wordcount.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/plugins/wordimage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/ui/autotypesetbutton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/ui/autotypesetpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/ui/breakline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/ui/button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/ui/cellalignpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/ui/colorbutton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/ui/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/ui/combox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/ui/dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/ui/mask.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/ui/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/ui/menubutton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/ui/message.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/ui/multiMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/ui/pastepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/ui/popup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/ui/separator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/ui/shortcutmenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/ui/splitbutton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/ui/stateful.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/ui/tablebutton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/ui/tablepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/ui/toolbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/ui/ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/ui/uibase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/ui/uiutils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/editor_api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/ueditor.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/jsp/article/detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/jsp/article/write.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TmpDir/info.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Mapper/target/Mercury-Mapper-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Mapper/target/Mercury-Mapper-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Mapper/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Mapper/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Pojo/target/Mercury-Pojo-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Pojo/target/Mercury-Pojo-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Pojo/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Pojo/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Server/target/Mercury-Server-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Server/target/Mercury-Server-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Server/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Server/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mercury-Web/src/main/resources/springMVC/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/src/main/resources/springMVC/springMVC.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/jquery.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/jsp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury.war" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/lib/Mercury-Mapper-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/lib/Mercury-Mapper-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/lib/Mercury-Pojo-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/lib/Mercury-Pojo-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/lib/Mercury-Server-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/lib/Mercury-Server-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/i18n/system_en.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/i18n/system_en.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/classes/springMVC/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/classes/springMVC/springMVC.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/jquery.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/jsp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/classes/springMVC/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/target/classes/springMVC/springMVC.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mercury-Web/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-cms/target/Mercury-cms.war" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-cms/target/Mercury-cms.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-cms/target/Mercury-cms/WEB-INF/lib/Mercury-Mapper-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-cms/target/Mercury-cms/WEB-INF/lib/Mercury-Mapper-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-cms/target/Mercury-cms/WEB-INF/lib/Mercury-Pojo-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-cms/target/Mercury-cms/WEB-INF/lib/Mercury-Pojo-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-cms/target/Mercury-cms/WEB-INF/lib/Mercury-Server-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-cms/target/Mercury-cms/WEB-INF/lib/Mercury-Server-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-cms/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-cms/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Mercury-Web/target/" />
     <ignored path="$PROJECT_DIR$/Mercury-Mapper/target/" />
@@ -43,25 +166,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/jsp/index.jsp">
+      <file leaf-file-name="springMVC.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/resources/springMVC/springMVC.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="145" column="37" selection-start-line="145" selection-start-column="37" selection-end-line="145" selection-end-column="37" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/css/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="327">
+              <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -71,13 +180,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jsp File" />
         <option value="Class" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>com.xuan.batis.scan.mapper</find>
+      <find>jquery</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -99,16 +211,28 @@
         <option value="$PROJECT_DIR$/Mercury-Web/src/main/resources/spring/applicationContext-dao.xml" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Mercury-Web/src/main/java/com/xuan/web/controller/BaseController.java" />
-        <option value="$PROJECT_DIR$/Mercury-Web/src/main/resources/springMVC/springMVC.xml" />
         <option value="$PROJECT_DIR$/Mercury-Web/src/main/java/com/xuan/web/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/Mercury-Web/src/main/java/com/xuan/web/controller/Home.java" />
         <option value="$PROJECT_DIR$/Mercury-Web/src/main/resources/properties/log4j.properties" />
-        <option value="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/css/index.css" />
         <option value="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/i18n/system_zh.properties" />
         <option value="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/i18n/system.properties" />
         <option value="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/jsp/top/top.jsp" />
         <option value="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/i18n/system_en.properties" />
+        <option value="$PROJECT_DIR$/TmpDir/info.txt" />
+        <option value="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/css/index.css" />
+        <option value="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/css/base.css" />
+        <option value="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/jquery.min.js" />
+        <option value="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/css/article/detail.css" />
+        <option value="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/css/article/write.css" />
+        <option value="$PROJECT_DIR$/Mercury-Web/src/main/java/com/xuan/web/controller/ArticleController.java" />
+        <option value="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/jsp/article/detail.jsp" />
         <option value="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/Mercury-Web/src/main/java/com/xuan/web/controller/FileController.java" />
+        <option value="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/ueditor.config.js" />
+        <option value="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/ueditor.all.js" />
+        <option value="$PROJECT_DIR$/Mercury-Web/src/main/resources/springMVC/springMVC.xml" />
+        <option value="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/editor_api.js" />
+        <option value="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/jsp/article/write.jsp" />
       </list>
     </option>
   </component>
@@ -153,7 +277,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-9" />
     <option name="width" value="977" />
     <option name="height" value="788" />
@@ -195,6 +319,23 @@
               <item name="Mercury-Web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mercury" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mercury" type="462c0819:PsiDirectoryNode" />
+              <item name="Mercury-Web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="springMVC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mercury" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mercury" type="462c0819:PsiDirectoryNode" />
+              <item name="Mercury-Web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -227,6 +368,40 @@
               <item name="page" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Mercury" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mercury" type="462c0819:PsiDirectoryNode" />
+              <item name="Mercury-Web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mercury" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mercury" type="462c0819:PsiDirectoryNode" />
+              <item name="Mercury-Web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="UEditor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mercury" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mercury" type="462c0819:PsiDirectoryNode" />
+              <item name="Mercury-Web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -240,7 +415,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="com.xuan.batis.scan.mapper.CustomerMapper&#9;PSI&#9;JAVA://com.xuan.beans.batis.scan.mapper.CustomerMapper" />
+    <property name="SearchEverywhereHistoryKey" value="UE&#9;FILE&#9;file://F:/IdeaProjects/Mercury/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/ueditor.config.js&#10;instances&#9;ACTION&#9;null&#10;com.xuan.batis.scan.mapper.CustomerMapper&#9;PSI&#9;JAVA://com.xuan.beans.batis.scan.mapper.CustomerMapper" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/Mercury-Mapper/src/main/java" />
@@ -253,17 +428,17 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\IdeaProjects\Mercury\Mercury-Web\src\main\webapp\WEB-INF\page\js\UEditor" />
+      <recent name="F:\IdeaProjects\Mercury\Mercury-Web\src\main\webapp\WEB-INF\page\css\UEditor" />
+      <recent name="F:\IdeaProjects\Mercury\Mercury-Web\src\main\webapp\WEB-INF\page\css" />
+      <recent name="F:\IdeaProjects\Mercury\Mercury-Web\src\main\webapp\WEB-INF\page\css\article" />
+      <recent name="F:\IdeaProjects\Mercury\Mercury-Web\src\main\webapp\WEB-INF\page\css\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\IdeaProjects\Mercury\Mercury-Web\src\main\webapp\WEB-INF" />
       <recent name="F:\IdeaProjects\Mercury\Mercury-Mapper\src\main\java\com\xuan\beans\batis\scan\mapper" />
       <recent name="F:\IdeaProjects\Mercury\Mercury-Mapper\src\main\java\com.xuan.batis.scan.mapper\xml" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\IdeaProjects\Mercury\Mercury-Web\src\main\webapp\WEB-INF\page\css\bootstrap" />
-      <recent name="F:\IdeaProjects\Mercury\Mercury-Web\src\main\webapp\WEB-INF\page\js\bootstrap" />
-      <recent name="F:\IdeaProjects\Mercury\Mercury-Web\src\main\webapp\WEB-INF\page\css" />
-      <recent name="F:\IdeaProjects\Mercury\Mercury-Web\src\main\webapp\WEB-INF\page" />
-      <recent name="F:\IdeaProjects\Mercury\Mercury-Mapper\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -466,7 +641,7 @@
       <workItem from="1567255303789" duration="5375000" />
       <workItem from="1567262552549" duration="216000" />
       <workItem from="1567262902472" duration="12627000" />
-      <workItem from="1567753462885" duration="6005000" />
+      <workItem from="1567753462885" duration="40354000" />
     </task>
     <task id="LOCAL-00001" summary="设置logger编码">
       <created>1567268942073</created>
@@ -479,10 +654,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34947000" />
+    <option name="totallyTimeSpent" value="69296000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -507,7 +682,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.89752066" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.9950413" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2602118" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.28441754" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -522,17 +697,17 @@
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3289256" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.89752066" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4264463" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.74710745" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.9950413" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3289256" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -540,8 +715,9 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3600605" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.1732224" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28441754" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Web" order="7" side_tool="true" />
@@ -549,7 +725,6 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.10743801" />
     </layout-to-restore>
   </component>
@@ -604,199 +779,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/resources/properties/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Java/jdk1.7.0_80/src.zip!/java/lang/reflect/InvocationTargetException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-513" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mercury-Web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="114" column="45" selection-start-line="114" selection-start-column="45" selection-end-line="114" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mercury-Server/src/main/java/com/xuan/beans/server/customer/ICustomerServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mercury-Mapper/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="84" column="12" selection-start-line="84" selection-start-column="12" selection-end-line="84" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.jar!/org/mybatis/spring/mapper/MapperScannerConfigurer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/resources/mybatis/SqlMapConfig.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mercury-Pojo/src/main/java/com.xuan.batis.scan.mapper.pojo/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mercury-Pojo/src/main/java/com.xuan.batis.scan.mapper.pojo/CustomerExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mercury-Mapper/src/main/java/com/xuan/beans/batis/scan/mapper/CustomerMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="59" lean-forward="true" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mercury-Mapper/src/main/java/com/xuan/beans/batis/scan/mapper/CustomerMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/resources/spring/applicationContext-server.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/resources/spring/applicationContext-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="20" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.8/mybatis-3.2.8.jar!/org/apache/ibatis/binding/MapperProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mercury-Server/src/main/java/com/xuan/beans/server/customer/impl/CustomerServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.1.3.RELEASE/spring-aop-4.1.3.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="175" selection-start-line="175" selection-end-line="175" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.1.3.RELEASE/spring-tx-4.1.3.RELEASE.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="145" selection-start-line="145" selection-end-line="145" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.1.3.RELEASE/spring-aop-4.1.3.RELEASE.jar!/org/springframework/aop/interceptor/ExposeInvocationInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.1.3.RELEASE/spring-aop-4.1.3.RELEASE.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.1.3.RELEASE/spring-aop-4.1.3.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="116" selection-start-line="116" selection-end-line="116" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.3.RELEASE/spring-web-4.1.3.RELEASE-sources.jar!/org/springframework/web/filter/OncePerRequestFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="110" selection-start-line="110" selection-end-line="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.3.RELEASE/spring-webmvc-4.1.3.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="466" selection-start-line="466" selection-end-line="466" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.3.RELEASE/spring-webmvc-4.1.3.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="402" selection-start-line="402" selection-end-line="402" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.3.RELEASE/spring-webmvc-4.1.3.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.1.3.RELEASE/spring-tx-4.1.3.RELEASE.jar!/org/springframework/transaction/interceptor/TransactionInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Java/jdk1.7.0_80/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="149" column="11" selection-start-line="149" selection-start-column="11" selection-end-line="149" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="38">
-            <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.3.RELEASE/spring-web-4.1.3.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -806,13 +788,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/common/cookies.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/resources/springMVC/springMVC.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/bootstrap/ie-emulation-modes-warning.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -829,16 +804,6 @@
     <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/jsp/footer/footer.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-916" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/java/com/xuan/web/controller/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="10" selection-end-column="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/java/com/xuan/web/controller/IndexController.java">
@@ -888,13 +853,6 @@
       </provider>
       <provider editor-type-id="ResourceBundle" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/jsp/top/top.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1045">
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -906,22 +864,200 @@
       </provider>
       <provider editor-type-id="ResourceBundle" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/TmpDir/info.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/java/com/xuan/web/controller/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="58" selection-start-line="9" selection-start-column="29" selection-end-line="10" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/jsp/top/top.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="56" column="15" selection-start-line="56" selection-start-column="15" selection-end-line="56" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="19447" selection-start-line="3" selection-start-column="19447" selection-end-line="3" selection-end-column="19447" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/css/article/detail.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/jsp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="145" column="37" selection-start-line="145" selection-start-column="37" selection-end-line="145" selection-end-column="37" />
+        <state relative-caret-position="437">
+          <caret line="32" column="149" selection-start-line="32" selection-start-column="149" selection-end-line="32" selection-end-column="149" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#center#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#center#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/css/article/write.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/jsp/article/detail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="49" column="10" selection-start-line="48" selection-start-column="8" selection-end-line="61" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/zh-cn.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/java/com/xuan/web/controller/ArticleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="11" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/java/com/xuan/web/controller/FileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#440#455#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/css/UEditor/zh-cn.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/css/UEditor/umeditor.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/css/UEditor/colorpicker.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/umeditor.config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/ui/tab.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/background.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/charts.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/table.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/insertcode.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_parse/list.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/ueditor.parse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/ueditor.all.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/core/dtd.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/editor.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/ueditor.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7182">
+          <caret line="393" lean-forward="true" selection-start-line="393" selection-end-line="393" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/editor_api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2546">
+          <caret line="134" column="34" selection-start-line="134" selection-start-column="34" selection-end-line="134" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/jsp/article/write.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="185" lean-forward="true" selection-start-line="185" selection-end-line="185" />
+          <folding>
+            <element signature="n#style#0;n#script#0;n#div#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/core/Editor.defaultoptions.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/_src/ui/ui.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/resources/springMVC/springMVC.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="19" />
         </state>
       </provider>
     </entry>

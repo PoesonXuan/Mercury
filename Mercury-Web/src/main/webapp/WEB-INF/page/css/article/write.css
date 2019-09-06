@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #F2F2F2;
+}
+#mainWriteDiv{
+	width:100%;
+	height: auto;
+}
+#mainWriteContent{
+	width:80%;
+	height: auto;
+	margin: 0 auto;
+}
+
+
+
+
+
