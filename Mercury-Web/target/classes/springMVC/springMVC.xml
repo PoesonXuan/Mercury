@@ -74,11 +74,18 @@
 	<mvc:resources location="/WEB-INF/page/js/" mapping="/js/**"  cache-period="31556926" />
 	<mvc:resources location="/WEB-INF/page/js/bootstrap/" mapping="/js/bootstrap/**"  cache-period="31556926" />
 	<mvc:resources location="/WEB-INF/page/js/common/" mapping="/js/common/**"  cache-period="31556926" />
-	<mvc:resources location="/WEB-INF/page/js/UEditor/" mapping="/js/UEditor/**"  cache-period="31556926" />
+
+
+	<mvc:resources location="/UE/" mapping="/UE/**"  cache-period="31556926" />
+
+
+	<mvc:resources location="/ckeditor/" mapping="/ck/**"  cache-period="31556926" />
+
+	<!--<mvc:resources location="/WEB-INF/page/js/UEditor/" mapping="/js/UEditor/**"  cache-period="31556926" />
 	<mvc:resources location="/WEB-INF/page/js/UEditor/_src/adapter/" mapping="/js/UEditor/adapter/**"  cache-period="31556926" />
 	<mvc:resources location="/WEB-INF/page/js/UEditor/_src/core/" mapping="/js/UEditor/core/**"  cache-period="31556926" />
 	<mvc:resources location="/WEB-INF/page/js/UEditor/_src/plugins/" mapping="/js/UEditor/plugins/**"  cache-period="31556926" />
-	<mvc:resources location="/WEB-INF/page/js/UEditor/_src/ui/" mapping="/js/UEditor/ui/**"  cache-period="31556926" />
+	<mvc:resources location="/WEB-INF/page/js/UEditor/_src/ui/" mapping="/js/UEditor/ui/**"  cache-period="31556926" />-->
 
 	<mvc:resources location="/WEB-INF/page/css/" mapping="/css/**"  cache-period="31556926" />
 	<mvc:resources location="/WEB-INF/page/css/bootstrap/" mapping="/css/bootstrap/**"  cache-period="31556926" />

@@ -71,7 +71,7 @@
 
         <div class="col-xs-7" style="height: auto;" >
             <div class="panel panel-success">
-                <div class="col-lg-10 panel-heading">推荐</div><div class="col-lg-2  pull-right panel-heading"><span>更多...</span></div>
+                <div id="recommend" class="col-lg-10 panel-heading">推荐</div><div class="col-lg-2  pull-right panel-heading"><span id="recommend_more">更多...</span></div>
                 <div class="panel-body">
                     <br>
                     <div class="panel panel-default">
@@ -204,7 +204,7 @@
 
 
             <div class="panel panel-primary">
-                <div class="panel-heading">站内公告</div>
+                <div id="station_notice" class="panel-heading">站内公告</div>
                 <div class="panel-body">在基础面板一节中了解到，panel样式并没有对主题进行样式设置，而主题样式是通过panel-default来设置。在Bootstrap框架中面板组件除了默认的主题样式之外，还包括以下几种主题样式，构成了一个彩色面板</div>
                 <%--<div class="panel-footer">作者：大漠</div>--%>
             </div>

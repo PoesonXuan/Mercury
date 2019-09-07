@@ -19,7 +19,9 @@
 
 <jsp:include page="${pageContext.request.contextPath}/top"></jsp:include>
 <!-- this is  forward page !!! -->
-
+<br>
+<br>
+<br>
 <div id="mainWriteDiv" >
     <div id="mainWriteContent">
         <div class="panel panel-default">
@@ -31,7 +33,7 @@
                    <div class="panel panel-default">
                        <div class="panel-body" >
                            <div class="form-group">
-                               <label class="col-sm-1 control-label">标题</label>
+                               <label id="write_title" class="col-sm-1 control-label">标题</label>
                                <div class="col-sm-4">
                                    <input type="text" class="form-control" name="userName" placeholder="请输入标题">
                                </div>
@@ -49,7 +51,7 @@
                    <div class="panel panel-default">
                        <div class="panel-body" >
                            <div class="form-group">
-                               <label class="col-sm-1 control-label">类别</label>
+                               <label id="write_type" class="col-sm-1 control-label">类别</label>
                                <div class="col-sm-4">
                                    <select class="form-control selectpicker" title="请选择类别">
                                        <option value="2" class="special">power user</option>
@@ -70,7 +72,7 @@
                    -->
                    <div class="panel panel-default">
                        <div class="panel-body" >
-                           <label class="col-sm-1 control-label">标签</label>
+                           <label id="write_tags" class="col-sm-1 control-label">标签</label>
                            <div id="content" style="width:90%;float:right;height: 70%">
                                <div class="row">
                                    <div class="col-xs-5">
@@ -118,17 +120,31 @@
                    -->
 
                    <div class="panel panel-default">
+                       <div id="write_content" class="panel-heading">正文</div>
                        <div class="panel-body" >
-                           <label class="col-sm-1 control-label">正文</label>
-                           <!--style给定宽度可以影响编辑器的最终宽度-->
-                           <script type="text/plain" id="myEditor1" style="margin-bottom:100px;"/>
-
-
+                           <div id="editor">
+                               <h1>Hello world!</h1>
+                               <h1>Please write here!</h1>
+                           </div>
                        </div>
                    </div>
                    <!--
                    正文 end
                    -->
+                   <!--
+                   按钮组合 start
+                   -->
+                   <div class="panel panel-default">
+                       <div class="panel-body" >
+                           <button id="write_btns_add_image" type="button" class="btn btn-sm btn-info" onclick="getCKData()">添加图片</button>
+                           <button id="write_btns_add_publish" type="button" class="btn btn-sm btn-success">发布</button>
+                           <button id="write_btns_add_home" type="button" class="btn btn-sm btn-danger">返回主页</button>
+                       </div>
+                   </div>
+                   <!--
+                   按钮组合 end
+                   -->
+
 
 
                </form>
@@ -158,31 +174,36 @@
 
 
 
+<script src="${pageContext.request.contextPath }/ck/ckeditor.js"></script>
+<script src="${pageContext.request.contextPath }/ck/samples/js/sample.js"></script>
+<link rel="stylesheet" href="${pageContext.request.contextPath }/ck/samples/css/samples.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath }/ck/samples/toolbarconfigurator/lib/codemirror/neo.css">
 
-<!--编辑器基本配置-->
-
-<script type="text/javascript" charset="utf-8" src="${pageContext.request.contextPath }/js/UEditor/editor_api.js"></script>
-
-<!--编辑器完整代码-->
-<script type="text/javascript" charset="utf-8" src="${pageContext.request.contextPath }/js/UEditor/ueditor.config.js"></script>
-
-
+<!--开头这里的样式为默认的风格，可以根据自己的喜好更换风格-->
+<!--我的高亮效果是zenburn-->
+<link rel="stylesheet" href="${pageContext.request.contextPath }/ck/highlight/styles/idea.css">
+<script src="${pageContext.request.contextPath }/ck/highlight/highlight.pack.js"></script>
 
 
 <script type="text/javascript">
 
+    initSample();
 
-    //实例化编辑器
-    UE.getEditor('myEditor', {
-        theme:"default", //皮肤
-        lang:'zh-cn' //语言
-    });
-
+    hljs.initHighlightingOnLoad();
 
     $(function () {
 
 
     });
+
+    function getCKData(){
+        debugger;
+        var content = CKEDITOR.instances.editor.getData();//获取值
+        var htmlData=CKEDITOR.instances.editor.getData();
+        var appEndData="追加的内容";
+        var theData=htmlData+appEndData;
+        CKEDITOR.instances.editor.setData(theData);
+    }
 
 
     function selectChange(sign) {
