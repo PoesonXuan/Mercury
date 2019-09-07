@@ -27,8 +27,17 @@
       <file leaf-file-name="write.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/jsp/article/write.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5">
-              <caret line="204" column="33" selection-start-line="204" selection-start-column="33" selection-end-line="204" selection-end-column="33" />
+            <state relative-caret-position="404">
+              <caret line="225" column="5" selection-start-line="225" selection-start-column="5" selection-end-line="225" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -160,40 +169,6 @@
             <path>
               <item name="Mercury" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mercury" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mercury" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mercury" type="462c0819:PsiDirectoryNode" />
-              <item name="Mercury-Web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mercury" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mercury" type="462c0819:PsiDirectoryNode" />
-              <item name="Mercury-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mercury" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mercury" type="462c0819:PsiDirectoryNode" />
-              <item name="Mercury-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mercury" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mercury" type="462c0819:PsiDirectoryNode" />
-              <item name="Mercury-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mercury" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mercury" type="462c0819:PsiDirectoryNode" />
-              <item name="Mercury-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -437,7 +412,7 @@
       <workItem from="1567262902472" duration="12627000" />
       <workItem from="1567753462885" duration="40448000" />
       <workItem from="1567863674327" duration="5945000" />
-      <workItem from="1567871772459" duration="9939000" />
+      <workItem from="1567871772459" duration="12202000" />
     </task>
     <task id="LOCAL-00001" summary="设置logger编码">
       <created>1567268942073</created>
@@ -450,10 +425,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85274000" />
+    <option name="totallyTimeSpent" value="87537000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -476,8 +452,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.892562" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.9933884" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31694403" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.9933884" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31694403" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -574,7 +550,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/umeditor.config.js" />
     <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/ui/tab.js" />
     <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/background.js" />
     <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/js/UEditor/charts.js" />
@@ -786,10 +761,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/jsp/article/write.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret line="204" column="33" selection-start-line="204" selection-start-column="33" selection-end-line="204" selection-end-column="33" />
+        <state relative-caret-position="404">
+          <caret line="225" column="5" selection-start-line="225" selection-start-column="5" selection-end-line="225" selection-end-column="5" />
         </state>
       </provider>
     </entry>
