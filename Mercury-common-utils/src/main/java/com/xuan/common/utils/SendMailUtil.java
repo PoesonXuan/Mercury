@@ -17,7 +17,7 @@ public class SendMailUtil {
 
     // private static final String smtphost = "192.168.1.70";
     private static final String from = "18766402390@139.com";
-    private static final String fromName = "测试公司";
+    private static final String fromName = "默克公司";
     private static final String charSet = "utf-8";
     private static final String username = "18766402390@139.com";
     private static final String password = "1q2w#E$R";
@@ -273,7 +273,7 @@ public class SendMailUtil {
                 map.put("subject", "测试标题");
                 map.put("content", content);
                 String templatePath = ""; // 暂无
-                sendFtlMail(email, "sendemail test!", templatePath, map);
+                sendFtlMail(email, "默克认证系统", templatePath, map);
             }
         }).start();
 

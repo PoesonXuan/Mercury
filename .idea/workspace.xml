@@ -7,834 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="418a7fc8-b027-4085-8464-f01f061e3fb0" name="Default" comment="设置logger编码">
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/java/com/xuan/web/controller/authen/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/css/login/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/jsp/article/novel.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/jsp/novel.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/jsp/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-common-utils/Mercurycommonutils.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-common-utils/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-common-utils/src/main/java/com/xuan/common/utils/SendMailUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mercury-common-utils/src/main/java/com/xuan/common/utils/entity/MailEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Mercury_Web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Mercury_Web_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Mapper/target/Mercury-Mapper-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Mapper/target/Mercury-Mapper-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Mapper/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Mapper/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Pojo/target/Mercury-Pojo-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Pojo/target/Mercury-Pojo-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Pojo/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Pojo/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Server/target/Mercury-Server-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Server/target/Mercury-Server-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Server/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Server/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/Mercury-Web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/Mercury-Web.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/src/main/java/com/xuan/web/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/src/main/java/com/xuan/web/controller/article/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/src/main/java/com/xuan/web/controller/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/src/main/java/com/xuan/web/controller/file/FileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/src/main/java/com/xuan/web/controller/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/src/main/java/com/xuan/web/controller/index/Home.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/src/main/java/com/xuan/web/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/src/main/java/com/xuan/web/controller/index/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/src/main/resources/springMVC/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/src/main/resources/springMVC/springMVC.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/jsp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/jsp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury.war" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/adapter/autosave.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/adapter/editor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/adapter/editorui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/adapter/message.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/api.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/core/Editor.defaultoptions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/core/Editor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/core/EventBase.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/core/Range.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/core/Selection.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/core/ajax.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/core/browser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/core/domUtils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/core/dtd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/core/filternode.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/core/filterword.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/core/htmlparser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/core/keymap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/core/loadconfig.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/core/localstorage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/core/node.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/core/plugin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/core/utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/editor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/editor_api.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/anchor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/autofloat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/autoheight.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/autolink.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/autosave.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/autosubmit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/autotypeset.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/autoupload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/background.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/basestyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/blockquote.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/catchremoteimage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/charts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/cleardoc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/contextmenu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/convertcase.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/copy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/customstyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/defaultfilter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/directionality.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/dragdrop.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/elementpath.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/enterkey.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/fiximgclick.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/font.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/formatmatch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/horizontal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/iframe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/image.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/indent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/insertcode.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/insertfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/inserthtml.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/insertparagraph.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/justify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/keystrokes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/lineheight.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/link.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/list.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/music.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/pagebreak.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/paragraph.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/paste.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/preview.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/print.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/puretxtpaste.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/removeformat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/rowspacing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/scrawl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/searchreplace.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/section.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/selectall.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/serverparam.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/shortcutmenu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/simpleupload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/snapscreen.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/source.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/table.action.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/table.cmds.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/table.core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/table.sort.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/template.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/time.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/undo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/video.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/webapp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/wordcount.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/plugins/wordimage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/ueditor.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/ui/autotypesetbutton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/ui/autotypesetpicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/ui/breakline.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/ui/button.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/ui/cellalignpicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/ui/colorbutton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/ui/colorpicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/ui/combox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/ui/dialog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/ui/mask.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/ui/menu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/ui/menubutton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/ui/message.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/ui/multiMenu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/ui/pastepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/ui/popup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/ui/separator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/ui/shortcutmenu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/ui/splitbutton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/ui/stateful.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/ui/tablebutton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/ui/tablepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/ui/toolbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/ui/ui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/ui/uibase.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/UE/ui/uiutils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/classes/com/xuan/web/controller/ArticleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/classes/com/xuan/web/controller/ArticleController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/classes/com/xuan/web/controller/FileController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/classes/com/xuan/web/controller/FileController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/classes/com/xuan/web/controller/Home.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/classes/com/xuan/web/controller/Home.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/classes/com/xuan/web/controller/IndexController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/classes/com/xuan/web/controller/IndexController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/classes/springMVC/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/classes/springMVC/springMVC.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/lib/Mercury-Mapper-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/lib/Mercury-Mapper-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/lib/Mercury-Pojo-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/lib/Mercury-Pojo-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/lib/Mercury-Server-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/lib/Mercury-Server-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/css/UEditor/button.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/css/UEditor/buttonicon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/css/UEditor/colorpicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/css/UEditor/combobox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/css/UEditor/comboboxmenu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/css/UEditor/dialog.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/css/UEditor/dialogsize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/css/UEditor/editor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/css/UEditor/popup.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/css/UEditor/separator.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/css/UEditor/splitbutton.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/css/UEditor/tab.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/css/UEditor/tooltip.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/css/UEditor/umeditor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_parse/background.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_parse/charts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_parse/insertcode.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_parse/list.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_parse/parse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_parse/table.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_parse/video.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/adapter/autosave.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/adapter/editor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/adapter/editorui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/adapter/message.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/api.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/core/Editor.defaultoptions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/core/Editor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/core/EventBase.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/core/Range.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/core/Selection.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/core/ajax.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/core/browser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/core/domUtils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/core/dtd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/core/filternode.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/core/filterword.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/core/htmlparser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/core/keymap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/core/loadconfig.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/core/localstorage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/core/node.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/core/plugin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/core/utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/editor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/anchor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/autofloat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/autoheight.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/autolink.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/autosave.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/autosubmit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/autotypeset.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/autoupload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/background.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/basestyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/blockquote.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/catchremoteimage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/charts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/cleardoc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/contextmenu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/convertcase.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/copy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/customstyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/defaultfilter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/directionality.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/dragdrop.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/elementpath.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/enterkey.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/fiximgclick.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/font.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/formatmatch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/horizontal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/iframe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/image.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/indent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/insertcode.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/insertfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/inserthtml.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/insertparagraph.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/justify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/keystrokes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/lineheight.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/link.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/list.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/music.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/pagebreak.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/paragraph.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/paste.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/preview.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/print.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/puretxtpaste.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/removeformat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/rowspacing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/scrawl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/searchreplace.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/section.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/selectall.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/serverparam.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/shortcutmenu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/simpleupload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/snapscreen.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/source.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/table.action.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/table.cmds.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/table.core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/table.sort.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/template.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/time.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/undo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/video.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/webapp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/wordcount.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/plugins/wordimage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/ui/autotypesetbutton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/ui/autotypesetpicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/ui/breakline.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/ui/button.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/ui/cellalignpicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/ui/colorbutton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/ui/colorpicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/ui/combox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/ui/dialog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/ui/mask.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/ui/menu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/ui/menubutton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/ui/message.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/ui/multiMenu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/ui/pastepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/ui/popup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/ui/separator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/ui/shortcutmenu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/ui/splitbutton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/ui/stateful.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/ui/tablebutton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/ui/tablepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/ui/toolbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/ui/ui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/ui/uibase.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/_src/ui/uiutils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/background.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/charts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/core/Editor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/core/EventBase.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/core/Range.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/core/Selection.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/core/browser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/core/domUtils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/core/dtd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/core/filternode.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/core/filterword.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/core/htmlparser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/core/node.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/core/utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/editor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/editor_api.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/insertcode.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/list.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/parse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/plugins/autosave.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/plugins/autoupload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/plugins/basestyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/plugins/cleardoc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/plugins/enterkey.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/plugins/font.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/plugins/formula.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/plugins/horizontal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/plugins/image.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/plugins/inserthtml.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/plugins/justify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/plugins/keystrokes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/plugins/link.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/plugins/list.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/plugins/paragraph.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/plugins/paste.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/plugins/preview.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/plugins/print.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/plugins/removeformat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/plugins/selectall.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/plugins/source.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/plugins/undo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/plugins/video.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/plugins/xssFilter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/table.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/ueditor.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/ueditor.parse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/ui/button.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/ui/buttoncombobox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/ui/colorpicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/ui/colorsplitbutton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/ui/combobox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/ui/dropmenu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/ui/menu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/ui/modal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/ui/popup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/ui/scale.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/ui/separator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/ui/splitbutton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/ui/tab.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/ui/toolbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/ui/tooltip.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/ui/widget.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/umeditor.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/video.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/js/UEditor/zh-cn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/jsp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/target/Mercury/WEB-INF/page/jsp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/Gruntfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_parse/background.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_parse/charts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_parse/insertcode.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_parse/list.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_parse/parse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_parse/table.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_parse/video.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/adapter/autosave.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/adapter/editor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/adapter/editorui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/adapter/message.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/api.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/core/Editor.defaultoptions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/core/Editor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/core/EventBase.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/core/Range.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/core/Selection.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/core/ajax.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/core/browser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/core/domUtils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/core/dtd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/core/filternode.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/core/filterword.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/core/htmlparser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/core/keymap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/core/loadconfig.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/core/localstorage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/core/node.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/core/plugin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/core/utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/editor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/anchor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/autofloat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/autoheight.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/autolink.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/autosave.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/autosubmit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/autotypeset.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/autoupload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/background.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/basestyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/blockquote.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/catchremoteimage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/charts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/cleardoc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/contextmenu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/convertcase.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/copy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/customstyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/defaultfilter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/directionality.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/dragdrop.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/elementpath.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/enterkey.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/fiximgclick.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/font.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/formatmatch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/horizontal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/iframe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/image.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/indent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/insertcode.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/insertfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/inserthtml.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/insertparagraph.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/justify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/keystrokes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/lineheight.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/link.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/list.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/music.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/pagebreak.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/paragraph.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/paste.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/preview.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/print.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/puretxtpaste.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/removeformat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/rowspacing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/scrawl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/searchreplace.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/section.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/selectall.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/serverparam.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/shortcutmenu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/simpleupload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/snapscreen.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/source.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/table.action.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/table.cmds.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/table.core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/table.sort.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/template.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/time.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/undo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/video.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/webapp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/wordcount.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/plugins/wordimage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/ui/autotypesetbutton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/ui/autotypesetpicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/ui/breakline.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/ui/button.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/ui/cellalignpicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/ui/colorbutton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/ui/colorpicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/ui/combox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/ui/dialog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/ui/mask.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/ui/menu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/ui/menubutton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/ui/message.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/ui/multiMenu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/ui/pastepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/ui/popup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/ui/separator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/ui/shortcutmenu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/ui/splitbutton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/ui/stateful.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/ui/tablebutton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/ui/tablepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/ui/toolbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/ui/ui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/ui/uibase.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/_src/ui/uiutils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/anchor/anchor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/attachment/attachment.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/attachment/attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/attachment/attachment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/attachment/fileTypeImages/icon_chm.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/attachment/fileTypeImages/icon_default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/attachment/fileTypeImages/icon_exe.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/attachment/fileTypeImages/icon_jpg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/attachment/fileTypeImages/icon_mp3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/attachment/fileTypeImages/icon_mv.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/attachment/fileTypeImages/icon_ppt.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/attachment/fileTypeImages/icon_rar.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/attachment/fileTypeImages/icon_txt.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/attachment/fileTypeImages/icon_xls.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/attachment/images/alignicon.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/attachment/images/alignicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/attachment/images/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/attachment/images/file-icons.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/attachment/images/file-icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/attachment/images/icons.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/attachment/images/icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/attachment/images/image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/attachment/images/progress.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/attachment/images/success.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/attachment/images/success.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/background/background.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/background/background.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/background/background.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/background/images/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/background/images/success.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/charts/chart.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/charts/charts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/charts/charts.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/charts/charts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/charts/images/charts0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/charts/images/charts1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/charts/images/charts2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/charts/images/charts3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/charts/images/charts4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/charts/images/charts5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/emotion/emotion.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/emotion/emotion.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/emotion/emotion.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/emotion/images/0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/emotion/images/bface.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/emotion/images/cface.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/emotion/images/fface.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/emotion/images/jxface2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/emotion/images/neweditor-tab-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/emotion/images/tface.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/emotion/images/wface.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/emotion/images/yface.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/gmap/gmap.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/help/help.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/help/help.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/help/help.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/image/image.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/image/image.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/image/image.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/image/images/alignicon.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/image/images/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/image/images/icons.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/image/images/icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/image/images/image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/image/images/progress.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/image/images/success.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/image/images/success.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/insertframe/insertframe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/internal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/link/link.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/map/map.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/map/show.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/music/music.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/music/music.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/music/music.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/preview/preview.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/scrawl/images/addimg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/scrawl/images/brush.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/scrawl/images/delimg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/scrawl/images/delimgH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/scrawl/images/empty.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/scrawl/images/emptyH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/scrawl/images/eraser.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/scrawl/images/redo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/scrawl/images/redoH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/scrawl/images/scale.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/scrawl/images/scaleH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/scrawl/images/size.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/scrawl/images/undo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/scrawl/images/undoH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/scrawl/scrawl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/scrawl/scrawl.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/scrawl/scrawl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/searchreplace/searchreplace.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/searchreplace/searchreplace.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/snapscreen/snapscreen.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/spechars/spechars.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/spechars/spechars.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/table/dragicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/table/edittable.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/table/edittable.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/table/edittable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/table/edittd.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/table/edittip.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/template/config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/template/images/bg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/template/images/pre0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/template/images/pre1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/template/images/pre2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/template/images/pre3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/template/images/pre4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/template/template.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/template/template.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/template/template.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/video/images/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/video/images/center_focus.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/video/images/file-icons.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/video/images/file-icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/video/images/icons.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/video/images/icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/video/images/image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/video/images/left_focus.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/video/images/none_focus.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/video/images/progress.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/video/images/right_focus.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/video/images/success.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/video/images/success.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/video/video.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/video/video.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/video/video.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/webapp/webapp.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/wordimage/fClipboard_ueditor.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/wordimage/imageUploader.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/wordimage/tangram.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/wordimage/wordimage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/dialogs/wordimage/wordimage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/editor_api.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/jsp/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/jsp/controller.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/jsp/lib/commons-codec-1.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/jsp/lib/commons-fileupload-1.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/jsp/lib/commons-io-2.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/jsp/lib/json.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/jsp/lib/ueditor-1.1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/jsp/src/com/baidu/ueditor/ActionEnter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/jsp/src/com/baidu/ueditor/ConfigManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/jsp/src/com/baidu/ueditor/Encoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/jsp/src/com/baidu/ueditor/PathFormat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/jsp/src/com/baidu/ueditor/define/ActionMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/jsp/src/com/baidu/ueditor/define/ActionState.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/jsp/src/com/baidu/ueditor/define/AppInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/jsp/src/com/baidu/ueditor/define/BaseState.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/jsp/src/com/baidu/ueditor/define/FileType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/jsp/src/com/baidu/ueditor/define/MIMEType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/jsp/src/com/baidu/ueditor/define/MultiState.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/jsp/src/com/baidu/ueditor/define/State.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/jsp/src/com/baidu/ueditor/hunter/FileManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/jsp/src/com/baidu/ueditor/hunter/ImageHunter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/jsp/src/com/baidu/ueditor/upload/Base64Uploader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/jsp/src/com/baidu/ueditor/upload/BinaryUploader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/jsp/src/com/baidu/ueditor/upload/StorageManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/jsp/src/com/baidu/ueditor/upload/Uploader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/lang/en/en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/lang/en/images/addimage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/lang/en/images/alldeletebtnhoverskin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/lang/en/images/alldeletebtnupskin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/lang/en/images/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/lang/en/images/button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/lang/en/images/copy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/lang/en/images/deletedisable.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/lang/en/images/deleteenable.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/lang/en/images/listbackground.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/lang/en/images/localimage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/lang/en/images/music.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/lang/en/images/rotateleftdisable.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/lang/en/images/rotateleftenable.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/lang/en/images/rotaterightdisable.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/lang/en/images/rotaterightenable.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/lang/en/images/upload.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/lang/zh-cn/images/copy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/lang/zh-cn/images/localimage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/lang/zh-cn/images/music.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/lang/zh-cn/images/upload.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/lang/zh-cn/zh-cn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/_css/autotypesetpicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/_css/button.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/_css/buttonicon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/_css/cellalignpicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/_css/colorbutton.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/_css/colorpicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/_css/combox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/_css/contextmenu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/_css/dialog.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/_css/editor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/_css/menu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/_css/menubutton.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/_css/message.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/_css/multiMenu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/_css/paragraphpicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/_css/pastepicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/_css/popup.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/_css/separtor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/_css/shortcutmenu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/_css/splitbutton.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/_css/tablepicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/_css/toolbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/_css/ueditor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/_css/uibase.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/dialogbase.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/images/anchor.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/images/arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/images/arrow_down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/images/arrow_up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/images/button-bg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/images/cancelbutton.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/images/charts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/images/cursor_h.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/images/cursor_h.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/images/cursor_v.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/images/cursor_v.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/images/dialog-title-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/images/filescan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/images/highlighted.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/images/icons-all.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/images/icons.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/images/icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/images/loaderror.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/images/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/images/lock.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/images/neweditor-tab-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/images/pagebreak.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/images/scale.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/images/sortable.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/images/spacer.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/images/sparator_v.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/images/table-cell-align.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/images/tangram-colorpicker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/images/toolbar_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/images/unhighlighted.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/images/upload.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/images/videologo.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/images/word.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/default/images/wordpaste.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/themes/iframe.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/SyntaxHighlighter/shCore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/codemirror/codemirror.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/codemirror/codemirror.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/highcharts/adapters/mootools-adapter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/highcharts/adapters/prototype-adapter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/highcharts/adapters/standalone-framework.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/highcharts/adapters/standalone-framework.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/highcharts/highcharts-more.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/highcharts/highcharts-more.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/highcharts/highcharts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/highcharts/highcharts.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/highcharts/modules/annotations.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/highcharts/modules/annotations.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/highcharts/modules/canvas-tools.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/highcharts/modules/canvas-tools.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/highcharts/modules/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/highcharts/modules/data.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/highcharts/modules/drilldown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/highcharts/modules/drilldown.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/highcharts/modules/exporting.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/highcharts/modules/exporting.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/highcharts/modules/funnel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/highcharts/modules/funnel.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/highcharts/modules/heatmap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/highcharts/modules/heatmap.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/highcharts/modules/map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/highcharts/modules/map.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/highcharts/modules/no-data-to-display.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/highcharts/modules/no-data-to-display.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/highcharts/themes/dark-blue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/highcharts/themes/dark-green.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/highcharts/themes/gray.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/highcharts/themes/grid.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/highcharts/themes/skies.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/jquery-1.10.2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/jquery-1.10.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/jquery-1.10.2.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/snapscreen/UEditorSnapscreen.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/video-js/font/vjs.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/video-js/font/vjs.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/video-js/font/vjs.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/video-js/font/vjs.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/video-js/video-js.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/video-js/video-js.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/video-js/video-js.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/video-js/video.dev.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/video-js/video.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/webuploader/Uploader.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/webuploader/webuploader.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/webuploader/webuploader.custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/webuploader/webuploader.custom.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/webuploader/webuploader.flashonly.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/webuploader/webuploader.flashonly.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/webuploader/webuploader.html5only.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/webuploader/webuploader.html5only.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/webuploader/webuploader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/webuploader/webuploader.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/webuploader/webuploader.withoutimage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/zeroclipboard/ZeroClipboard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/zeroclipboard/ZeroClipboard.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/third-party/zeroclipboard/ZeroClipboard.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/ueditor.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/Mercury/ueditor/ueditor.parse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/classes/com/xuan/web/controller/ArticleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/classes/com/xuan/web/controller/ArticleController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/classes/com/xuan/web/controller/FileController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/classes/com/xuan/web/controller/FileController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/classes/com/xuan/web/controller/Home.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/classes/com/xuan/web/controller/Home.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/classes/com/xuan/web/controller/IndexController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/classes/com/xuan/web/controller/IndexController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/classes/springMVC/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/target/classes/springMVC/springMVC.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-Web/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/surefire/surefire2063228030663152940tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/surefire/surefire5316051468162109147tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/surefire/surefire6195160018385864381tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/surefire/surefire6779567367852463234tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/surefire/surefirebooter5154901035287094673.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-Web/target/surefire/surefirebooter5683079581629099321.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-cms/target/Mercury-cms.war" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-cms/target/Mercury-cms.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-cms/target/Mercury-cms/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-cms/target/Mercury-cms/WEB-INF/lib/Mercury-Mapper-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-cms/target/Mercury-cms/WEB-INF/lib/Mercury-Mapper-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-cms/target/Mercury-cms/WEB-INF/lib/Mercury-Pojo-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-cms/target/Mercury-cms/WEB-INF/lib/Mercury-Pojo-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-cms/target/Mercury-cms/WEB-INF/lib/Mercury-Server-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-cms/target/Mercury-cms/WEB-INF/lib/Mercury-Server-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mercury-cms/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-cms/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mercury-common-utils/src/main/java/com/xuan/common/utils/SendMailUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mercury-common-utils/src/main/java/com/xuan/common/utils/SendMailUtil.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Mercury-Web/target/" />
     <ignored path="$PROJECT_DIR$/Mercury-Mapper/target/" />
@@ -852,93 +25,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MailEntity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mercury-common-utils/src/main/java/com/xuan/common/utils/entity/MailEntity.java">
+      <file leaf-file-name="info.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TmpDir/info.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" selection-start-column="8" selection-end-column="29" />
-              <folding>
-                <element signature="e#166#167#0" expanded="true" />
-                <element signature="e#193#194#0" expanded="true" />
-                <element signature="e#233#234#0" expanded="true" />
-                <element signature="e#265#266#0" expanded="true" />
-                <element signature="e#294#295#0" expanded="true" />
-                <element signature="e#319#320#0" expanded="true" />
-                <element signature="e#355#356#0" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
-                <element signature="e#413#414#0" expanded="true" />
-                <element signature="e#439#440#0" expanded="true" />
-                <element signature="e#477#478#0" expanded="true" />
-                <element signature="e#507#508#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="76">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SendMailUtil.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SendMailUtil.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Mercury-common-utils/src/main/java/com/xuan/common/utils/SendMailUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="124" selection-start-line="124" selection-end-line="124" />
-              <folding>
-                <element signature="e#889#905#0" expanded="true" />
-                <element signature="e#9148#9504#0" expanded="true" />
-                <element signature="e#9239#9255#0" expanded="true" />
-                <element signature="e#9503#9504#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/java/com/xuan/web/controller/authen/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1653#1669#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InvocableHandlerMethod.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.3.RELEASE/spring-web-4.1.3.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="220" selection-start-line="220" selection-end-line="220" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/jsp/register.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-718">
-              <caret line="82" column="78" lean-forward="true" selection-start-line="82" selection-start-column="78" selection-end-line="82" selection-end-column="91" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringUtils.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.0.9/druid-1.0.9.jar!/com/alibaba/druid/util/StringUtils.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
-              <folding>
-                <element signature="e#1943#1944#0" expanded="true" />
-                <element signature="e#2002#2003#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mercury-common-utils/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+            <state relative-caret-position="247">
+              <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -1019,9 +119,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Mercury-common-utils/src/main/java/com/xuan/common/utils/entity/MailEntity.java" />
         <option value="$PROJECT_DIR$/Mercury-common-utils/pom.xml" />
-        <option value="$PROJECT_DIR$/Mercury-common-utils/src/main/java/com/xuan/common/utils/SendMailUtil.java" />
         <option value="$PROJECT_DIR$/Mercury-Web/src/main/webapp/WEB-INF/page/jsp/register.jsp" />
         <option value="$PROJECT_DIR$/Mercury-Web/src/main/java/com/xuan/web/controller/authen/UserController.java" />
+        <option value="$PROJECT_DIR$/Mercury-common-utils/src/main/java/com/xuan/common/utils/SendMailUtil.java" />
       </list>
     </option>
   </component>
@@ -1088,58 +188,37 @@
             <path>
               <item name="Mercury" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mercury" type="462c0819:PsiDirectoryNode" />
-              <item name="Mercury-Web" type="462c0819:PsiDirectoryNode" />
+              <item name="Mercury-common-utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Mercury" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mercury" type="462c0819:PsiDirectoryNode" />
-              <item name="Mercury-Web" type="462c0819:PsiDirectoryNode" />
+              <item name="Mercury-common-utils" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Mercury" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mercury" type="462c0819:PsiDirectoryNode" />
-              <item name="Mercury-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mercury" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mercury" type="462c0819:PsiDirectoryNode" />
-              <item name="Mercury-Web" type="462c0819:PsiDirectoryNode" />
+              <item name="Mercury-common-utils" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Mercury" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mercury" type="462c0819:PsiDirectoryNode" />
-              <item name="Mercury-Web" type="462c0819:PsiDirectoryNode" />
+              <item name="Mercury-common-utils" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Mercury" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mercury" type="462c0819:PsiDirectoryNode" />
-              <item name="Mercury-Web" type="462c0819:PsiDirectoryNode" />
+              <item name="Mercury-common-utils" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mercury" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mercury" type="462c0819:PsiDirectoryNode" />
-              <item name="Mercury-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1398,7 +477,7 @@
       <workItem from="1567863674327" duration="5945000" />
       <workItem from="1567871772459" duration="12227000" />
       <workItem from="1567952558140" duration="1189000" />
-      <workItem from="1568450953053" duration="20342000" />
+      <workItem from="1568450953053" duration="20724000" />
     </task>
     <task id="LOCAL-00001" summary="设置logger编码">
       <created>1567268942073</created>
@@ -1411,7 +490,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109287000" />
+    <option name="totallyTimeSpent" value="109669000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1428,7 +507,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.57024795" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.57024795" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3289256" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
@@ -1439,7 +518,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.7801653" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.9917355" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11951589" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33888048" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289256" />
       <window_info anchor="right" id="Theme Preview" order="7" />
@@ -1572,7 +651,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/ckeditor/css/samples/js/sf.js" />
     <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/ckeditor/js/samples/js/sf.js" />
     <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/ckeditor/css/samples/samples.css" />
     <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/webapp/ckeditor/README.md">
@@ -1805,7 +883,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Mercury-common-utils/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
+        <state relative-caret-position="327">
           <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
         </state>
       </provider>
@@ -1856,19 +934,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mercury-common-utils/src/main/java/com/xuan/common/utils/SendMailUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="124" selection-start-line="124" selection-end-line="124" />
-          <folding>
-            <element signature="e#889#905#0" expanded="true" />
-            <element signature="e#9148#9504#0" expanded="true" />
-            <element signature="e#9239#9255#0" expanded="true" />
-            <element signature="e#9503#9504#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Mercury-Web/src/main/java/com/xuan/web/controller/authen/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
@@ -1877,6 +942,20 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1653#1669#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TmpDir/info.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mercury-common-utils/src/main/java/com/xuan/common/utils/SendMailUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
         </state>
       </provider>
     </entry>
