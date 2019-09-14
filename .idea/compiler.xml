@@ -11,6 +11,7 @@
         <module name="Mercury-Pojo" />
         <module name="Mercury-Server" />
         <module name="Mercury-Web" />
+        <module name="Mercurycommonutils" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +21,7 @@
       <module name="Mercury-Pojo" target="1.5" />
       <module name="Mercury-Server" target="1.5" />
       <module name="Mercury-Web" target="1.5" />
+      <module name="Mercurycommonutils" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

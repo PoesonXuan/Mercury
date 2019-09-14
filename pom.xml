@@ -8,6 +8,7 @@
     <artifactId>Mercury</artifactId>
     <version>1.0.0</version>
     <modules>
+        <module>Mercury-common-utils</module>
         <module>Mercury-Pojo</module>
         <module>Mercury-Mapper</module>
         <module>Mercury-Server</module>

@@ -12,6 +12,13 @@
     <packaging>war</packaging>
     <artifactId>Mercury-Web</artifactId>
     <dependencies>
+
+        <dependency>
+            <groupId>com.xuan</groupId>
+            <artifactId>Mercury-common-utils</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
         <dependency>
             <groupId>com.xuan</groupId>
             <artifactId>Mercury-Server</artifactId>

@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/Mercury-Server/Mercury-Server.iml" filepath="$PROJECT_DIR$/Mercury-Server/Mercury-Server.iml" />
       <module fileurl="file://$PROJECT_DIR$/Mercury-Web/Mercury-Web.iml" filepath="$PROJECT_DIR$/Mercury-Web/Mercury-Web.iml" />
       <module fileurl="file://$PROJECT_DIR$/Mercury-cms/Mercury-cms.iml" filepath="$PROJECT_DIR$/Mercury-cms/Mercury-cms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mercury-common-utils/Mercurycommonutils.iml" filepath="$PROJECT_DIR$/Mercury-common-utils/Mercurycommonutils.iml" />
     </modules>
   </component>
 </project>

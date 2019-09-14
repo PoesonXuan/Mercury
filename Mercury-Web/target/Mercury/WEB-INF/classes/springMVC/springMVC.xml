@@ -91,6 +91,11 @@
 	<mvc:resources location="/WEB-INF/page/css/bootstrap/" mapping="/css/bootstrap/**"  cache-period="31556926" />
 	<mvc:resources location="/WEB-INF/page/css/footer/" mapping="/css/footer/**"  cache-period="31556926" />
 	<mvc:resources location="/WEB-INF/page/css/article/" mapping="/css/article/**"  cache-period="31556926" />
+
+
+	<mvc:resources location="/WEB-INF/page/css/login/" mapping="/css/login/**"  cache-period="31556926" />
+
+
 	<mvc:resources location="/WEB-INF/page/css/UEditor/" mapping="/css/UEditor/**"  cache-period="31556926" />
 
 	<mvc:resources location="/WEB-INF/page/i18n/" mapping="/i18n/**"  cache-period="31556926" />
